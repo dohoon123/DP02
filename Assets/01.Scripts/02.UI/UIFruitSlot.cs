@@ -1,17 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-
+// 출력용 슬롯.
 public class UIFruitSlot : MonoBehaviour {
-    
-    public enum FruitType 
-    { 
-        None,
-        Strawberry, 
-        Grape, 
-        Tangerine, 
-        Apple 
-    }
-    
     public FruitType m_FruitType = FruitType.None;
 }
